@@ -1,3 +1,10 @@
+body {
+    box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
 .flex-container {
     display: flex;
     max-width: 1110px;
@@ -8,28 +15,63 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 40%;
+    padding: 40px;
     background-color: aquamarine;
 }
-.textcol1 {
-    text-align: left;
-    flex-direction: column;
-    align-items: center;
+.contacts {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    }
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px 0px 20px;
+    width: 200px;
+}
+.language {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+}
+.textcol1 {
+    flex-direction: column;
+    justify-content: center;
 }
 .col2 {
     display: flex;
     flex-direction: column;
     align-items: start;
-    flex-direction: column;
-    width: 70%;
+    width: 60%;
     background-color: bisque;
 }
 .underline {
-    text-decoration: underline;
-}
-.padding {
-    padding-left: 0px;
+    text-align: left;
 }
 .circle-image {
     border-radius: 60%;
